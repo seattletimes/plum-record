@@ -6,9 +6,52 @@
   </head>
   <body>
 
-    <responsive-child>
-      <!-- content goes here -->
-    </responsive-child>
+    <%= t.include("partials/_nav.html") %>
+
+    <div class="debug" style="position: fixed; z-index: 999; background: black; color: white"></div>
+
+    <header class="intro">
+
+    </header>
+
+    <section class="scroll-graph">
+      <div class="backdrop">
+
+      </div>
+
+      <div class="season" data-season="1">
+
+      </div>
+
+      <div class="season" data-season="2">
+
+      </div>
+
+      <div class="season" data-season="3">
+
+      </div>
+
+      <div class="season" data-season="4">
+
+      </div>
+
+      <div class="spacer"></div>
+
+    </section>
+
+    <section class="follow-up">
+
+    </section>
+
+    <footer class="credits">
+
+    </footer>
+
+    <%= t.include("partials/_navBottom.html") %>
+
+    <script>
+window.plum = <%= JSON.stringify(json.plum) %>;
+    </script>
 
     <script src="app.js" async></script>
     <% if (json.project.production) { %>
