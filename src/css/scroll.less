@@ -16,27 +16,30 @@
     height: 120vh;
 
     .backdrop {
-      transition: all .3s ease-in-out;
-      background: url(http://placekitten.com/1200/1200);
+      transition: all .6s ease-in-out, opacity .8s linear;
+      background-image: url(http://placekitten.com/1200/1200);
       background-size: cover;
+      background-position: 50% 50%;
       position: fixed;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
-      .clip(circle(0 at 50% 50%));
+      .clip(circle(300px at -300px 70%));
       transform: translateZ(0);
       will-change: clip-path;
+      opacity: .01;
     }
 
     &.active .backdrop {
       .clip(circle(100% at 50% 50%));
+      opacity: 1;
     }
 
-    &[data-season="1"] .backdrop { background: url(http://placekitten.com/1199/1199) }
-    &[data-season="2"] .backdrop { background: url(http://placekitten.com/1201/1201) }
-    &[data-season="3"] .backdrop { background: url(http://placekitten.com/1200/1200) }
-    &[data-season="4"] .backdrop { background: url(http://placekitten.com/1203/1203) }
+    &[data-season="1"] .backdrop { background-image: url(http://placekitten.com/1199/1199) }
+    &[data-season="2"] .backdrop { background-image: url(http://placekitten.com/1201/1201) }
+    &[data-season="3"] .backdrop { background-image: url(http://placekitten.com/1200/1200) }
+    &[data-season="4"] .backdrop { background-image: url(http://placekitten.com/1203/1203) }
 
     &[data-season="1"] { background: lighten(salmon, 20%) }
     &[data-season="2"] { background: lighten(papayawhip, 20%) }
@@ -52,16 +55,18 @@
     transform: translate(-50%, -50%);
     width: 80%;
     height: 80%;
-    background: fade(black, 50%);
+    display: block;
 
     canvas {
+      background: fade(black, 50%);
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
-      border-bottom: 2px solid white;
-      border-left: 2px solid white;
+      border-bottom: 1px solid white;
+      border-left: 1px solid white;
+      display: block;
     }
   }
 }
