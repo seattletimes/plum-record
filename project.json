@@ -2,7 +2,7 @@
   "s3": {
     "stage": {
       "bucket": "projects-staging.seattletimes.com",
-      "path": ""
+      "path": "animate-illumination"
     },
     "live": {
       "bucket": "projects.seattletimes.com",
