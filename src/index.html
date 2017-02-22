@@ -15,27 +15,18 @@
     </header>
 
     <section class="scroll-graph">
-      <div class="backdrop">
 
+      <% for (var i = 1; i < 5; i++) { %>
+      <div class="season" data-season="<%= i %>">
+        <div class="backdrop"></div>
       </div>
-
-      <div class="season" data-season="1">
-
-      </div>
-
-      <div class="season" data-season="2">
-
-      </div>
-
-      <div class="season" data-season="3">
-
-      </div>
-
-      <div class="season" data-season="4">
-
-      </div>
+      <% } %>
 
       <div class="spacer"></div>
+
+      <div class="viz">
+        <canvas class="graph"></canvas>
+      </div>
 
     </section>
 

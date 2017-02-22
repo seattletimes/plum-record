@@ -1,0 +1,72 @@
+[
+  {
+    "Name": "Jackie Stiles",
+    "Points": 3393,
+    "School": "SW Mizzou St",
+    "Last year": 2001,
+    "Games": 129
+  },
+  {
+    "Name": "Brittney Griner",
+    "Points": 3283,
+    "School": "Baylor",
+    "Last year": 2013,
+    "Games": 148
+  },
+  {
+    "Name": "Patricia Hoskins",
+    "Points": 3122,
+    "School": "Mississippi Valley State",
+    "Last year": 1989,
+    "Games": 110
+  },
+  {
+    "Name": "Lorri Bauman",
+    "Points": 3115,
+    "School": "Drake",
+    "Last year": 1984,
+    "Games": 120
+  },
+  {
+    "Name": "Jerica Coley",
+    "Points": 3107,
+    "School": "FIU",
+    "Last year": 2014,
+    "Games": 131
+  },
+  {
+    "Name": "Rachel Banham",
+    "Points": 3093,
+    "School": "Minnesota",
+    "Last year": 2016,
+    "Games": 142
+  },
+  {
+    "Name": "Elena Delle Donne",
+    "Points": 3039,
+    "School": "Delaware",
+    "Last year": 2013,
+    "Games": 114
+  },
+  {
+    "Name": "Maya Moore",
+    "Points": 3036,
+    "School": "UConn",
+    "Last year": 2011,
+    "Games": 153
+  },
+  {
+    "Name": "Chamique Holdsclaw",
+    "Points": 3025,
+    "School": "Tennessee",
+    "Last year": 1999,
+    "Games": 148
+  },
+  {
+    "Name": "Cheryl Miller",
+    "Points": 3018,
+    "School": "USC",
+    "Last year": 1986,
+    "Games": 128
+  }
+]
