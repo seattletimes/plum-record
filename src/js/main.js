@@ -7,15 +7,23 @@ var colors = require("./lib/colors");
 
 var scrollContainer = $.one(".scroll-graph");
 var seasons = $(".season");
-var debug = $.one(".debug");
+var vizContainer = $.one(".viz");
 
 var gameData = window.plum;
+var maxPoints = gameData[gameData.length - 1].aggregate;
 var total = 0;
 var bySeason = { 1: [], 2: [], 3: [], 4: [] };
-gameData.forEach(function(g) {
+gameData.forEach(function(g, i) {
   bySeason[g.season].push(g);
+  if (g.note) {
+    var point = document.createElement("div");
+    point.className = "point";
+    point.setAttribute("data-index", i);
+    point.innerHTML = g.note;
+    point.style.left = (i + 1) / gameData.length * 100 + "%";
+    point.style.top = g.aggregate / maxPoints * 100 + "%";
+  }
 });
-var maxPoints = gameData[gameData.length - 1].aggregate;
 
 var canvas = $.one(".graph");
 var context = canvas.getContext("2d");
@@ -51,8 +59,6 @@ var onScroll = function() {
   var seasonData = bySeason[num];
   var index = Math.floor(seasonData.length * progress);
   var final = seasonData[index];
-
-  debug.innerHTML = `Season ${num}, game ${index + 1} of ${seasonData.length}`;
 
   canvas.width = canvas.offsetWidth;
   canvas.height = canvas.offsetHeight;
