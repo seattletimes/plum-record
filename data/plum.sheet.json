@@ -757,34 +757,12 @@
   },
   {
     "season": 3,
-    "game": 68,
-    "date": "11/2/15",
-    "opponent": "Concordia",
-    "location": "home",
-    "points": 24,
-    "aggregate": 1472,
-    "game_points": 94,
-    "result": "W"
-  },
-  {
-    "season": 3,
-    "game": 69,
-    "date": "11/8/15",
-    "opponent": "Warner Pacific",
-    "location": "home",
-    "points": 27,
-    "aggregate": 1499,
-    "game_points": 88,
-    "result": "W"
-  },
-  {
-    "season": 3,
     "game": 70,
     "date": "11/14/15",
     "opponent": "Santa Clara",
     "location": "home",
     "points": 25,
-    "aggregate": 1524,
+    "aggregate": 1473,
     "game_points": 100,
     "result": "W"
   },
@@ -795,7 +773,7 @@
     "opponent": "Seattle U",
     "location": "home",
     "points": 26,
-    "aggregate": 1550,
+    "aggregate": 1499,
     "game_points": 96,
     "result": "W"
   },
@@ -806,7 +784,7 @@
     "opponent": "Fresno St.",
     "location": "away",
     "points": 32,
-    "aggregate": 1582,
+    "aggregate": 1531,
     "game_points": 89,
     "result": "W"
   },
@@ -817,7 +795,7 @@
     "opponent": "San Diego St.",
     "location": "home",
     "points": 32,
-    "aggregate": 1614,
+    "aggregate": 1563,
     "game_points": 80,
     "result": "W"
   },
@@ -828,7 +806,7 @@
     "opponent": "Syacuse",
     "location": "away",
     "points": 19,
-    "aggregate": 1633,
+    "aggregate": 1582,
     "game_points": 62,
     "result": "L"
   },
@@ -839,7 +817,7 @@
     "opponent": "Texas Tech",
     "location": "away",
     "points": 34,
-    "aggregate": 1667,
+    "aggregate": 1616,
     "game_points": 77,
     "result": "W"
   },
@@ -850,7 +828,7 @@
     "opponent": "Portland",
     "location": "home",
     "points": 29,
-    "aggregate": 1696,
+    "aggregate": 1645,
     "game_points": 83,
     "result": "W"
   },
@@ -861,7 +839,7 @@
     "opponent": "Oklahoma",
     "location": "home",
     "points": 30,
-    "aggregate": 1726,
+    "aggregate": 1675,
     "game_points": 68,
     "result": "L"
   },
@@ -872,7 +850,7 @@
     "opponent": "South Dakota",
     "location": "away",
     "points": 25,
-    "aggregate": 1751,
+    "aggregate": 1700,
     "game_points": 77,
     "result": "W"
   },
@@ -883,7 +861,7 @@
     "opponent": "UC Riverside",
     "location": "home",
     "points": 27,
-    "aggregate": 1778,
+    "aggregate": 1727,
     "game_points": 78,
     "result": "W"
   },
@@ -894,7 +872,7 @@
     "opponent": "Weber St.",
     "location": "home",
     "points": 25,
-    "aggregate": 1803,
+    "aggregate": 1752,
     "game_points": 69,
     "result": "W"
   },
@@ -905,7 +883,7 @@
     "opponent": "Washington St.",
     "location": "away",
     "points": 33,
-    "aggregate": 1836,
+    "aggregate": 1785,
     "game_points": 79,
     "result": "W"
   },
@@ -916,7 +894,7 @@
     "opponent": "Colorado",
     "location": "away",
     "points": 18,
-    "aggregate": 1854,
+    "aggregate": 1803,
     "game_points": 76,
     "result": "W"
   },
@@ -927,7 +905,7 @@
     "opponent": "Utah",
     "location": "away",
     "points": 35,
-    "aggregate": 1889,
+    "aggregate": 1838,
     "game_points": 83,
     "result": "L"
   },
@@ -938,7 +916,7 @@
     "opponent": "Arizona St.",
     "location": "home",
     "points": 21,
-    "aggregate": 1910,
+    "aggregate": 1859,
     "game_points": 61,
     "result": "L"
   },
@@ -949,7 +927,7 @@
     "opponent": "Arizona",
     "location": "home",
     "points": 26,
-    "aggregate": 1936,
+    "aggregate": 1885,
     "game_points": 63,
     "result": "W"
   },
@@ -960,7 +938,7 @@
     "opponent": "UCLA",
     "location": "home",
     "points": 23,
-    "aggregate": 1959,
+    "aggregate": 1908,
     "game_points": 64,
     "result": "W"
   },
@@ -971,7 +949,7 @@
     "opponent": "USC",
     "location": "home",
     "points": 32,
-    "aggregate": 1991,
+    "aggregate": 1940,
     "game_points": 69,
     "result": "W"
   },
@@ -982,7 +960,7 @@
     "opponent": "Washington St.",
     "location": "home",
     "points": 24,
-    "aggregate": 2015,
+    "aggregate": 1964,
     "game_points": 69,
     "result": "W"
   },
@@ -993,7 +971,7 @@
     "opponent": "Stanford",
     "location": "away",
     "points": 23,
-    "aggregate": 2038,
+    "aggregate": 1987,
     "game_points": 53,
     "result": "L"
   },
@@ -1004,7 +982,7 @@
     "opponent": "CAL",
     "location": "away",
     "points": 28,
-    "aggregate": 2066,
+    "aggregate": 2015,
     "game_points": 75,
     "result": "W"
   },
@@ -1015,7 +993,7 @@
     "opponent": "Oregon St.",
     "location": "home",
     "points": 30,
-    "aggregate": 2096,
+    "aggregate": 2045,
     "game_points": 53,
     "result": "L"
   },
@@ -1026,7 +1004,7 @@
     "opponent": "Oregon",
     "location": "home",
     "points": 26,
-    "aggregate": 2122,
+    "aggregate": 2071,
     "game_points": 63,
     "result": "L"
   },
@@ -1037,7 +1015,7 @@
     "opponent": "USC",
     "location": "away",
     "points": 22,
-    "aggregate": 2144,
+    "aggregate": 2093,
     "game_points": 61,
     "result": "W"
   },
@@ -1048,7 +1026,7 @@
     "opponent": "UCLA",
     "location": "away",
     "points": 32,
-    "aggregate": 2176,
+    "aggregate": 2125,
     "game_points": 59,
     "result": "L"
   },
@@ -1059,7 +1037,7 @@
     "opponent": "Arizona",
     "location": "away",
     "points": 22,
-    "aggregate": 2198,
+    "aggregate": 2147,
     "game_points": 74,
     "result": "W"
   },
@@ -1070,7 +1048,7 @@
     "opponent": "Arizona St.",
     "location": "away",
     "points": 25,
-    "aggregate": 2223,
+    "aggregate": 2172,
     "game_points": 57,
     "result": "L"
   },
@@ -1081,7 +1059,7 @@
     "opponent": "Utah",
     "location": "home",
     "points": 26,
-    "aggregate": 2249,
+    "aggregate": 2198,
     "game_points": 73,
     "result": "W"
   },
@@ -1092,7 +1070,7 @@
     "opponent": "Colorado",
     "location": "home",
     "points": 18,
-    "aggregate": 2267,
+    "aggregate": 2216,
     "game_points": 68,
     "result": "W"
   },
@@ -1103,7 +1081,7 @@
     "opponent": "Colorado",
     "location": "home",
     "points": 27,
-    "aggregate": 2294,
+    "aggregate": 2243,
     "game_points": 67,
     "result": "W"
   },
@@ -1114,7 +1092,7 @@
     "opponent": "Stanford",
     "location": "home",
     "points": 29,
-    "aggregate": 2323,
+    "aggregate": 2272,
     "game_points": 73,
     "result": "W"
   },
@@ -1125,7 +1103,7 @@
     "opponent": "Oregon St.",
     "location": "away",
     "points": 14,
-    "aggregate": 2337,
+    "aggregate": 2286,
     "game_points": 55,
     "result": "L"
   },
@@ -1136,7 +1114,7 @@
     "opponent": "Penn",
     "location": "away",
     "points": 24,
-    "aggregate": 2361,
+    "aggregate": 2310,
     "game_points": 65,
     "result": "W"
   },
@@ -1147,7 +1125,7 @@
     "opponent": "Maryland",
     "location": "away",
     "points": 32,
-    "aggregate": 2393,
+    "aggregate": 2342,
     "game_points": 74,
     "result": "W"
   },
@@ -1158,7 +1136,7 @@
     "opponent": "Kentucky",
     "location": "away",
     "points": 23,
-    "aggregate": 2416,
+    "aggregate": 2365,
     "game_points": 85,
     "result": "W"
   },
@@ -1169,7 +1147,7 @@
     "opponent": "Stanford",
     "location": "away",
     "points": 26,
-    "aggregate": 2442,
+    "aggregate": 2391,
     "game_points": 85,
     "result": "W"
   },
@@ -1180,7 +1158,7 @@
     "opponent": "Syracuse",
     "location": "away",
     "points": 17,
-    "aggregate": 2459,
+    "aggregate": 2408,
     "game_points": 80,
     "result": "L",
     "notes": "*",
@@ -1194,7 +1172,7 @@
     "opponent": "Eastern",
     "location": "home",
     "points": 32,
-    "aggregate": 2491,
+    "aggregate": 2440,
     "game_points": 100,
     "result": "W"
   },
@@ -1205,7 +1183,7 @@
     "opponent": "Colorado St.",
     "location": "home",
     "points": 26,
-    "aggregate": 2517,
+    "aggregate": 2466,
     "game_points": 101,
     "result": "W"
   },
@@ -1216,7 +1194,7 @@
     "opponent": "Missouri",
     "location": "home",
     "points": 32,
-    "aggregate": 2549,
+    "aggregate": 2498,
     "game_points": 79,
     "result": "W"
   },
@@ -1227,7 +1205,7 @@
     "opponent": "Notre Dame",
     "location": "away",
     "points": 22,
-    "aggregate": 2571,
+    "aggregate": 2520,
     "game_points": 60,
     "result": "L"
   },
@@ -1238,7 +1216,7 @@
     "opponent": "Idaho",
     "location": "home",
     "points": 27,
-    "aggregate": 2598,
+    "aggregate": 2547,
     "game_points": 105,
     "result": "W"
   },
@@ -1249,7 +1227,7 @@
     "opponent": "Seattle U",
     "location": "away",
     "points": 44,
-    "aggregate": 2642,
+    "aggregate": 2591,
     "game_points": 94,
     "result": "W",
     "notes": "*",
@@ -1263,7 +1241,7 @@
     "opponent": "Portland",
     "location": "away",
     "points": 26,
-    "aggregate": 2668,
+    "aggregate": 2617,
     "game_points": 83,
     "result": "W"
   },
@@ -1274,7 +1252,7 @@
     "opponent": "Grand Canyon",
     "location": "away",
     "points": 28,
-    "aggregate": 2696,
+    "aggregate": 2645,
     "game_points": 101,
     "result": "W"
   },
@@ -1285,7 +1263,7 @@
     "opponent": "Fresno St.",
     "location": "home",
     "points": 30,
-    "aggregate": 2726,
+    "aggregate": 2675,
     "game_points": 92,
     "result": "W"
   },
@@ -1296,7 +1274,7 @@
     "opponent": "CSUN",
     "location": "home",
     "points": 30,
-    "aggregate": 2756,
+    "aggregate": 2705,
     "game_points": 87,
     "result": "W"
   },
@@ -1307,7 +1285,7 @@
     "opponent": "Boise St.",
     "location": "home",
     "points": 44,
-    "aggregate": 2800,
+    "aggregate": 2749,
     "game_points": 82,
     "result": "W",
     "notes": "Kelsey Plum becomes Pac-12 all-time leading scorer with 44 points, handing Boise State its first loss of the season. ",
@@ -1322,7 +1300,7 @@
     "opponent": "Savannah St.",
     "location": "home",
     "points": 23,
-    "aggregate": 2823,
+    "aggregate": 2772,
     "game_points": 94,
     "result": "W"
   },
@@ -1333,7 +1311,7 @@
     "opponent": "BYU",
     "location": "away",
     "points": 29,
-    "aggregate": 2852,
+    "aggregate": 2801,
     "game_points": 82,
     "result": "W"
   },
@@ -1344,7 +1322,7 @@
     "opponent": "Washington St.",
     "location": "home",
     "points": 21,
-    "aggregate": 2873,
+    "aggregate": 2822,
     "game_points": 94,
     "result": "W"
   },
@@ -1355,7 +1333,7 @@
     "opponent": "Oregon",
     "location": "away",
     "points": 44,
-    "aggregate": 2917,
+    "aggregate": 2866,
     "game_points": 99,
     "result": "W",
     "notes": "“She’s got an incredible knack to stress the defense and yet still be able to share the ball,” UW coach Mike Neighbors said after Kelsey Plum notched another 40-point game. “It’s not like a shot-hunting expedition and she’s not a stat-stuffer.”",
@@ -1368,7 +1346,7 @@
     "opponent": "Oregon St.",
     "location": "away",
     "points": 22,
-    "aggregate": 2939,
+    "aggregate": 2888,
     "game_points": 70,
     "result": "L"
   },
@@ -1379,7 +1357,7 @@
     "opponent": "USC",
     "location": "home",
     "points": 34,
-    "aggregate": 2973,
+    "aggregate": 2922,
     "game_points": 77,
     "result": "W"
   },
@@ -1390,7 +1368,7 @@
     "opponent": "UCLA",
     "location": "home",
     "points": 39,
-    "aggregate": 3012,
+    "aggregate": 2961,
     "game_points": 82,
     "result": "W"
   },
@@ -1401,7 +1379,7 @@
     "opponent": "Arizona",
     "location": "away",
     "points": 36,
-    "aggregate": 3048,
+    "aggregate": 2997,
     "game_points": 90,
     "result": "W",
     "notes": "Kelsey Plum becomes first UW basketball player (women or men) to reach 3,000 career points.",
@@ -1416,7 +1394,7 @@
     "opponent": "Arizona St.",
     "location": "away",
     "points": 34,
-    "aggregate": 3082,
+    "aggregate": 3031,
     "game_points": 65,
     "result": "W"
   },
@@ -1427,7 +1405,7 @@
     "opponent": "Washington St.",
     "location": "away",
     "points": 29,
-    "aggregate": 3111,
+    "aggregate": 3060,
     "game_points": 87,
     "result": "W"
   },
@@ -1438,7 +1416,7 @@
     "opponent": "CAL",
     "location": "home",
     "points": 24,
-    "aggregate": 3135,
+    "aggregate": 3084,
     "game_points": 90,
     "result": "W"
   },
@@ -1449,7 +1427,7 @@
     "opponent": "Stanford",
     "location": "home",
     "points": 44,
-    "aggregate": 3179,
+    "aggregate": 3128,
     "game_points": 68,
     "result": "L",
     "notes": "*",
@@ -1463,7 +1441,7 @@
     "opponent": "Utah",
     "location": "away",
     "points": 24,
-    "aggregate": 3203,
+    "aggregate": 3152,
     "game_points": 82,
     "result": "W"
   },
@@ -1474,7 +1452,7 @@
     "opponent": "Colorado",
     "location": "away",
     "points": 28,
-    "aggregate": 3231,
+    "aggregate": 3180,
     "game_points": 79,
     "result": "W"
   },
@@ -1485,7 +1463,7 @@
     "opponent": "Arizona",
     "location": "home",
     "points": 22,
-    "aggregate": 3253,
+    "aggregate": 3202,
     "game_points": 91,
     "result": "W"
   },
@@ -1496,7 +1474,7 @@
     "opponent": "Arizona St.",
     "location": "home",
     "points": 29,
-    "aggregate": 3282,
+    "aggregate": 3231,
     "game_points": 70,
     "result": "W"
   },
@@ -1507,7 +1485,7 @@
     "opponent": "UCLA",
     "location": "away",
     "points": 39,
-    "aggregate": 3321,
+    "aggregate": 3270,
     "game_points": 79,
     "result": "L"
   },
@@ -1518,7 +1496,7 @@
     "opponent": "USC",
     "location": "away",
     "points": 35,
-    "aggregate": 3356,
+    "aggregate": 3305,
     "game_points": 87,
     "result": "W",
     "notes": "Kelsey Plum passes Brittney Griner to move into second place on all-time NCAA scoring list",
@@ -1529,15 +1507,13 @@
     "game": 136,
     "date": "2/23/17",
     "opponent": "Colorado",
-    "location": "home",
-    "aggregate": 3356
+    "location": "home"
   },
   {
     "season": 4,
     "game": 137,
     "date": "2/25/17",
     "opponent": "Utah",
-    "location": "home",
-    "aggregate": 3356
+    "location": "home"
   }
 ]
