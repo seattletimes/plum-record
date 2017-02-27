@@ -14,18 +14,22 @@
 
   .season {
     height: 120vh;
+    background-image: url(./assets/photos/02212017_PLUM2014Stanford_135049.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 
     .backdrop {
       transition: all .6s ease-in-out, opacity .8s linear;
       background-image: url(http://placekitten.com/1200/1200);
       background-size: cover;
-      background-position: 50% 50%;
+      background-position: 80% 20%;
       position: fixed;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
-      .clip(circle(300px at -300px 70%));
+      @circle-size: 400px;
+      .clip(circle(@circle-size at -@circle-size 70%));
       transform: translateZ(0);
       will-change: clip-path;
       opacity: .01;
@@ -34,17 +38,13 @@
     &.active .backdrop {
       .clip(circle(100% at 50% 50%));
       opacity: 1;
+      background-position: 50% 0;
     }
 
-    &[data-season="1"] .backdrop { background-image: url(http://placekitten.com/1199/1199) }
-    &[data-season="2"] .backdrop { background-image: url(http://placekitten.com/1201/1201) }
-    &[data-season="3"] .backdrop { background-image: url(http://placekitten.com/1200/1200) }
-    &[data-season="4"] .backdrop { background-image: url(http://placekitten.com/1203/1203) }
-
-    &[data-season="1"] { background: lighten(salmon, 20%) }
-    &[data-season="2"] { background: lighten(papayawhip, 20%) }
-    &[data-season="3"] { background: lighten(rebeccapurple, 20%) }
-    &[data-season="4"] { background: lighten(sandybrown, 20%) }
+    &[data-season="1"] .backdrop {background-image: url(./assets/photos/02212017_PLUM2013UC-Irvine_134319.jpg) }
+    &[data-season="2"] .backdrop { background-image: url(./assets/photos/02212017_PLUM2016SU_144133.jpg) }
+    &[data-season="3"] .backdrop { background-image: url(./assets/photos/02212017_PLUM2017stanford_150637.jpg) }
+    &[data-season="4"] .backdrop { background-image: url(./assets/photos/02212017_PLUMSyracuse2016_143641.jpg) }
   }
 
   .viz {
@@ -67,6 +67,12 @@
       border-bottom: 1px solid white;
       border-left: 1px solid white;
       display: block;
+    }
+
+    .point {
+      position: absolute;
+      padding: 8px;
+      border: 1px solid white;
     }
   }
 }
