@@ -1,5 +1,5 @@
 .scroll-graph {
-  z-index: -1;
+  // z-index: -1;
   overflow: hidden;
   position: relative;
 
@@ -14,13 +14,12 @@
 
   .season {
     height: 120vh;
-    background-image: url(./assets/photos/02212017_PLUM2014Stanford_135049.jpg);
+    background-image: url(./assets/photos/plum1.jpg);
     background-size: cover;
     background-attachment: fixed;
 
     .backdrop {
       transition: all .6s ease-in-out, opacity .8s linear;
-      background-image: url(http://placekitten.com/1200/1200);
       background-size: cover;
       background-position: 80% 20%;
       position: fixed;
@@ -41,10 +40,10 @@
       background-position: 50% 0;
     }
 
-    &[data-season="1"] .backdrop {background-image: url(./assets/photos/02212017_PLUM2013UC-Irvine_134319.jpg) }
-    &[data-season="2"] .backdrop { background-image: url(./assets/photos/02212017_PLUM2016SU_144133.jpg) }
-    &[data-season="3"] .backdrop { background-image: url(./assets/photos/02212017_PLUM2017stanford_150637.jpg) }
-    &[data-season="4"] .backdrop { background-image: url(./assets/photos/02212017_PLUMSyracuse2016_143641.jpg) }
+    &[data-season="1"] .backdrop {background-image: url(./assets/photos/plum2.jpg) }
+    &[data-season="2"] .backdrop { background-image: url(./assets/photos/plum3.jpg) }
+    &[data-season="3"] .backdrop { background-image: url(./assets/photos/plum4.jpg) }
+    &[data-season="4"] .backdrop { background-image: url(./assets/photos/plum5.jpg) }
   }
 
   .viz {
@@ -53,12 +52,12 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
     display: block;
 
     canvas {
-      background: fade(black, 50%);
+      background: fade(black, 20%);
       position: absolute;
       top: 0;
       left: 0;
@@ -70,9 +69,64 @@
     }
 
     .point {
+      @point-size: 12px;
+
       position: absolute;
-      padding: 8px;
       border: 1px solid white;
+      width: @point-size;
+      height: @point-size;
+      margin-left: -@point-size / 2;
+      margin-top: -@point-size / 2;
+      border-radius: 100%;
+
+      .content {
+        display: none;
+      }
+
+      &.activated {
+        background: white;
+      }
+    }
+
+    .popup {
+      position: absolute;
+      width: 300px;
+      max-width: 100%;
+      background: fade(black, 70%);
+      color: white;
+      padding: 32px 16px;
+      border-radius: 4px;
+      box-shadow: 0 8px 8px 16px fade(black, 20%);
+      display: none;
+      font-family: @df-sans;
+      font-size: 14px;
+      z-index: 999;
+
+      .close-button {
+        position: absolute;
+        top: 0px;
+        right: 10px;
+        font-size: 150%;
+        font-weight: bold;
+        color: white;
+        cursor: pointer;
+      }
+    }
+
+    .counter {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      color: white;
+      background: fade(black, 40%);
+      font-family: @df-sans;
+      font-size: 12px;
+      padding: 8px;
+      text-align: right;
+
+      @media @mobile {
+        display: none;
+      }
     }
   }
 }

@@ -4,17 +4,123 @@ nav.main-nav {
   z-index: 999;
 }
 
+@keyframes devil-daggers {
+  from {
+    transform: translateY(-10px);
+  }
+
+  to {
+    transform: translateY(10px);
+  }
+}
+
 header.intro {
-  height: 20vh;
   z-index: 1;
   position: relative;
   background: white;
   box-shadow: 0 8px 8px 16px fade(black, 15%);
+  z-index: 99;
+  padding-bottom: 48px;
+
+  img {
+    display: block;
+    margin: auto;
+  }
+
+  p.chatter {
+    display: block;
+    max-width: 800px;
+    margin: auto;
+    padding: 32px 24px;
+
+    @media @mobile {
+      font-size: 16px;
+    }
+  }
+
+  .scroll-indicator {
+    color: @df-middle-gray;
+    font-size: 48px;
+    text-align: center;
+    animation: devil-daggers 2s infinite alternate-reverse ease-in-out;
+  }
 }
 
 @import "scroll";
 
 .follow-up {
-  height: 200vh;
-  background: @df-middle-gray;
+  background: white;
+  z-index: 999;
+  position: relative;
+  overflow: hidden;
+
+  .content {
+    max-width: 800px;
+    margin: auto;
+    padding: 32px 16px;
+    font-size: 16px;
+  }
+
+  .row {
+    .display-flex();
+
+    .chatter {
+      .flex(1 1 50%);
+      padding: 0 32px;
+    }
+
+    @media @mobile {
+      display: block;
+    }
+  }
+
+  table {
+    font-family: @df-sans;
+    font-size: 14px;
+    border-collapse: collapse;
+    margin: auto;
+
+    th, td {
+      text-align: right;
+      padding: 2px 8px 2px 0;
+    }
+
+    th {
+      vertical-align: bottom;
+      font-weight: normal;
+      font-style: italic;
+    }
+
+    td {
+      vertical-align: top;
+    }
+
+    tr:nth-child(2n) td {
+      background: @df-off-white;
+    }
+
+    .plum td {
+      font-weight: bold;
+      // color: @st-dark-purple;
+    }
+
+    .name {
+      text-align: left;
+    }
+
+    .school {
+      font-style: italic;
+    }
+  }
+
+  .credits {
+    width: auto;
+    text-align: right;
+    font-family: @df-sans;
+    text-transform: uppercase;
+    font-style: italic;
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 20px;
+  }
 }

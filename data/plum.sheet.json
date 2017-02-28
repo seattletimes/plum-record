@@ -121,6 +121,8 @@
     "aggregate": 201,
     "game_points": 72,
     "result": "W",
+    "notes": "Shorthanded, down to just seven healthy players, the Huskies relied on whom they were quickly discovering was a freshman phenom. Kelsey Plum scored 25 to lead the Dawgs to a win in their final nonconference contest — and lead the team in scoring for the first of what would be many times in her career.",
+    "link": "http://www.seattletimes.com/sports/uw-huskies/short-handed-husky-women-hang-on-to-beat-uc-irvine/",
     "photo": "plum1.jpg",
     "credit": "Dean Rutz / The Seattle Times"
   },
@@ -238,7 +240,7 @@
     "season": 1,
     "game": 22,
     "date": "2/7/14",
-    "opponent": "CAL",
+    "opponent": "Cal",
     "location": "home",
     "points": 16,
     "aggregate": 431,
@@ -255,7 +257,7 @@
     "aggregate": 454,
     "game_points": 87,
     "result": "W",
-    "notes": "Kelsey Plum nets 23 points to help the Husky women take down No. 4 Stanford in the biggest game of her young career. The win was all the sweeter for Plum, who grew up dreaming to play for Stanford, but when it became 'not an option,' Plum found a home with the Huskies.",
+    "notes": "Kelsey Plum nets 23 points to help the Husky women take down No. 4 Stanford in the biggest game of her young career. The win was all the sweeter for Plum, who grew up dreaming to play for Stanford, but when it became \"not an option,\" Plum found a home with the Huskies.",
     "link": "http://www.seattletimes.com/sports/uw-huskies/kelsey-plumrsquos-passion-is-paying-off-for-huskies/",
     "photo": "plum2.jpg",
     "credit": "Lindsey Wasson / The Seattle Times"
@@ -319,13 +321,13 @@
     "season": 1,
     "game": 29,
     "date": "3/1/14",
-    "opponent": "CAL",
+    "opponent": "Cal",
     "location": "away",
     "points": 22,
     "aggregate": 605,
     "game_points": 70,
     "result": "W",
-    "notes": "\"A free-throw and a smile.\" That's what Katie Plum remembers seeing from her daughter after Kesley calmly drilled a pair of free-throws to seal an upset victory over No. 18 California in UW's regular-season finale. Plum finished with 22 points, making it the 16th game of the season with 20 points or more -- a stat that would win her to Pac-12 Freshman of the Year. ",
+    "notes": "\"A free-throw and a smile.\" That's what Katie Plum remembers seeing from her daughter after Kelsey calmly drilled a pair of free-throws to seal an upset victory over No. 18 California in UW's regular-season finale. Plum finished with 22 points, making it the 16th game of the season with 20 points or more — a stat that would win her to Pac-12 Freshman of the Year. ",
     "link": "http://www.seattletimes.com/sports/uw-huskies/kelsey-plumrsquos-passion-is-paying-off-for-huskies/",
     "photo": "plum3.jpg",
     "credit": "Lindsey Wasson / The Seattle Times"
@@ -518,7 +520,8 @@
     "aggregate": 1031,
     "game_points": 70,
     "result": "W",
-    "notes": "*1,000 points/UW beats No. 5 Texas A&M "
+    "notes": "Kelsey Plum introduces herself to the national stage in the Huskies' final nonconference game of her sophomore season, scoring 32 and leading UW to an upset of massive proportion over No. 5 Texas A&M. On her first basket of the game, Plum also becomes the fastest Husky ever to reach 1,000 career points.",
+    "link": "http://www.seattletimes.com/sports/uw-huskies/uw-women-shock-no-5-texas-am-70-49/"
   },
   {
     "season": 2,
@@ -557,10 +560,10 @@
     "season": 2,
     "game": 50,
     "date": "1/11/15",
-    "opponent": "CAL",
+    "opponent": "Cal",
     "location": "home",
-    "points": 20,
-    "aggregate": 1098,
+    "points": 30,
+    "aggregate": 1108,
     "game_points": 79,
     "result": "W"
   },
@@ -571,7 +574,7 @@
     "opponent": "Oregon",
     "location": "away",
     "points": 35,
-    "aggregate": 1133,
+    "aggregate": 1143,
     "game_points": 91,
     "result": "W"
   },
@@ -582,7 +585,7 @@
     "opponent": "Oregon St.",
     "location": "away",
     "points": 10,
-    "aggregate": 1143,
+    "aggregate": 1153,
     "game_points": 67,
     "result": "L"
   },
@@ -593,7 +596,7 @@
     "opponent": "Colorado",
     "location": "home",
     "points": 23,
-    "aggregate": 1166,
+    "aggregate": 1176,
     "game_points": 85,
     "result": "W"
   },
@@ -604,7 +607,7 @@
     "opponent": "Utah",
     "location": "home",
     "points": 26,
-    "aggregate": 1192,
+    "aggregate": 1202,
     "game_points": 63,
     "result": "W"
   },
@@ -612,10 +615,10 @@
     "season": 2,
     "game": 55,
     "date": "1/31/15",
-    "opponent": "CAL",
+    "opponent": "Cal",
     "location": "away",
     "points": 17,
-    "aggregate": 1209,
+    "aggregate": 1219,
     "game_points": 58,
     "result": "L"
   },
@@ -626,7 +629,7 @@
     "opponent": "Stanford",
     "location": "away",
     "points": 8,
-    "aggregate": 1217,
+    "aggregate": 1227,
     "game_points": 69,
     "result": "L"
   },
@@ -637,7 +640,7 @@
     "opponent": "Oregon St.",
     "location": "home",
     "points": 17,
-    "aggregate": 1234,
+    "aggregate": 1244,
     "game_points": 76,
     "result": "W"
   },
@@ -648,7 +651,7 @@
     "opponent": "Oregon",
     "location": "home",
     "points": 20,
-    "aggregate": 1254,
+    "aggregate": 1264,
     "game_points": 70,
     "result": "W"
   },
@@ -659,7 +662,7 @@
     "opponent": "Utah",
     "location": "away",
     "points": 22,
-    "aggregate": 1276,
+    "aggregate": 1286,
     "game_points": 61,
     "result": "L"
   },
@@ -670,7 +673,7 @@
     "opponent": "Colorado",
     "location": "away",
     "points": 28,
-    "aggregate": 1304,
+    "aggregate": 1314,
     "game_points": 79,
     "result": "W"
   },
@@ -681,7 +684,7 @@
     "opponent": "Washington St.",
     "location": "home",
     "points": 18,
-    "aggregate": 1322,
+    "aggregate": 1332,
     "game_points": 72,
     "result": "L"
   },
@@ -692,7 +695,7 @@
     "opponent": "Washington St.",
     "location": "away",
     "points": 22,
-    "aggregate": 1344,
+    "aggregate": 1354,
     "game_points": 83,
     "result": "W"
   },
@@ -703,7 +706,7 @@
     "opponent": "USC",
     "location": "home",
     "points": 27,
-    "aggregate": 1371,
+    "aggregate": 1381,
     "game_points": 60,
     "result": "W"
   },
@@ -714,7 +717,7 @@
     "opponent": "UCLA",
     "location": "home",
     "points": 22,
-    "aggregate": 1393,
+    "aggregate": 1403,
     "game_points": 74,
     "result": "W"
   },
@@ -725,7 +728,7 @@
     "opponent": "Utah",
     "location": "home",
     "points": 23,
-    "aggregate": 1416,
+    "aggregate": 1426,
     "game_points": 75,
     "result": "W"
   },
@@ -733,10 +736,10 @@
     "season": 2,
     "game": 66,
     "date": "3/6/15",
-    "opponent": "CAL",
+    "opponent": "Cal",
     "location": "home",
     "points": 15,
-    "aggregate": 1431,
+    "aggregate": 1441,
     "game_points": 53,
     "result": "L"
   },
@@ -747,10 +750,10 @@
     "opponent": "Miami",
     "location": "away",
     "points": 17,
-    "aggregate": 1448,
+    "aggregate": 1458,
     "game_points": 80,
     "result": "L",
-    "notes": "In her NCAAW tournament debut, Kelsey Plum was pitted against her former U.S.A. basketball coach, Katie Meier. Plum netted 17 points, but it wasn't enough, as the sixth-seeded Huskies were sent home early after making the tournament for the first time in eight years.",
+    "notes": "In her NCAA tournament debut, Kelsey Plum is pitted against her former U.S.A. basketball coach, Katie Meier. Plum nets 17 points, but it's not enough, as the sixth-seeded Huskies are sent home early after making the tournament for the first time in eight years.",
     "link": "http://www.seattletimes.com/sports/uw-husky-basketball/uw-womens-basketball-bounced-from-ncaa-tournament-in-first-round/",
     "photo": "plum4.jpg",
     "credit": "Matthew Holst / AP"
@@ -762,7 +765,7 @@
     "opponent": "Santa Clara",
     "location": "home",
     "points": 25,
-    "aggregate": 1473,
+    "aggregate": 1483,
     "game_points": 100,
     "result": "W"
   },
@@ -773,7 +776,7 @@
     "opponent": "Seattle U",
     "location": "home",
     "points": 26,
-    "aggregate": 1499,
+    "aggregate": 1509,
     "game_points": 96,
     "result": "W"
   },
@@ -784,7 +787,7 @@
     "opponent": "Fresno St.",
     "location": "away",
     "points": 32,
-    "aggregate": 1531,
+    "aggregate": 1541,
     "game_points": 89,
     "result": "W"
   },
@@ -795,7 +798,7 @@
     "opponent": "San Diego St.",
     "location": "home",
     "points": 32,
-    "aggregate": 1563,
+    "aggregate": 1573,
     "game_points": 80,
     "result": "W"
   },
@@ -806,7 +809,7 @@
     "opponent": "Syacuse",
     "location": "away",
     "points": 19,
-    "aggregate": 1582,
+    "aggregate": 1592,
     "game_points": 62,
     "result": "L"
   },
@@ -817,7 +820,7 @@
     "opponent": "Texas Tech",
     "location": "away",
     "points": 34,
-    "aggregate": 1616,
+    "aggregate": 1626,
     "game_points": 77,
     "result": "W"
   },
@@ -828,7 +831,7 @@
     "opponent": "Portland",
     "location": "home",
     "points": 29,
-    "aggregate": 1645,
+    "aggregate": 1655,
     "game_points": 83,
     "result": "W"
   },
@@ -839,7 +842,7 @@
     "opponent": "Oklahoma",
     "location": "home",
     "points": 30,
-    "aggregate": 1675,
+    "aggregate": 1685,
     "game_points": 68,
     "result": "L"
   },
@@ -850,7 +853,7 @@
     "opponent": "South Dakota",
     "location": "away",
     "points": 25,
-    "aggregate": 1700,
+    "aggregate": 1710,
     "game_points": 77,
     "result": "W"
   },
@@ -861,7 +864,7 @@
     "opponent": "UC Riverside",
     "location": "home",
     "points": 27,
-    "aggregate": 1727,
+    "aggregate": 1737,
     "game_points": 78,
     "result": "W"
   },
@@ -872,7 +875,7 @@
     "opponent": "Weber St.",
     "location": "home",
     "points": 25,
-    "aggregate": 1752,
+    "aggregate": 1762,
     "game_points": 69,
     "result": "W"
   },
@@ -883,7 +886,7 @@
     "opponent": "Washington St.",
     "location": "away",
     "points": 33,
-    "aggregate": 1785,
+    "aggregate": 1795,
     "game_points": 79,
     "result": "W"
   },
@@ -894,7 +897,7 @@
     "opponent": "Colorado",
     "location": "away",
     "points": 18,
-    "aggregate": 1803,
+    "aggregate": 1813,
     "game_points": 76,
     "result": "W"
   },
@@ -905,7 +908,7 @@
     "opponent": "Utah",
     "location": "away",
     "points": 35,
-    "aggregate": 1838,
+    "aggregate": 1848,
     "game_points": 83,
     "result": "L"
   },
@@ -916,7 +919,7 @@
     "opponent": "Arizona St.",
     "location": "home",
     "points": 21,
-    "aggregate": 1859,
+    "aggregate": 1869,
     "game_points": 61,
     "result": "L"
   },
@@ -927,7 +930,7 @@
     "opponent": "Arizona",
     "location": "home",
     "points": 26,
-    "aggregate": 1885,
+    "aggregate": 1895,
     "game_points": 63,
     "result": "W"
   },
@@ -938,7 +941,7 @@
     "opponent": "UCLA",
     "location": "home",
     "points": 23,
-    "aggregate": 1908,
+    "aggregate": 1918,
     "game_points": 64,
     "result": "W"
   },
@@ -949,7 +952,7 @@
     "opponent": "USC",
     "location": "home",
     "points": 32,
-    "aggregate": 1940,
+    "aggregate": 1950,
     "game_points": 69,
     "result": "W"
   },
@@ -960,7 +963,7 @@
     "opponent": "Washington St.",
     "location": "home",
     "points": 24,
-    "aggregate": 1964,
+    "aggregate": 1974,
     "game_points": 69,
     "result": "W"
   },
@@ -971,7 +974,7 @@
     "opponent": "Stanford",
     "location": "away",
     "points": 23,
-    "aggregate": 1987,
+    "aggregate": 1997,
     "game_points": 53,
     "result": "L"
   },
@@ -979,10 +982,10 @@
     "season": 3,
     "game": 90,
     "date": "1/31/16",
-    "opponent": "CAL",
+    "opponent": "Cal",
     "location": "away",
     "points": 28,
-    "aggregate": 2015,
+    "aggregate": 2025,
     "game_points": 75,
     "result": "W"
   },
@@ -993,7 +996,7 @@
     "opponent": "Oregon St.",
     "location": "home",
     "points": 30,
-    "aggregate": 2045,
+    "aggregate": 2055,
     "game_points": 53,
     "result": "L"
   },
@@ -1004,7 +1007,7 @@
     "opponent": "Oregon",
     "location": "home",
     "points": 26,
-    "aggregate": 2071,
+    "aggregate": 2081,
     "game_points": 63,
     "result": "L"
   },
@@ -1015,7 +1018,7 @@
     "opponent": "USC",
     "location": "away",
     "points": 22,
-    "aggregate": 2093,
+    "aggregate": 2103,
     "game_points": 61,
     "result": "W"
   },
@@ -1026,7 +1029,7 @@
     "opponent": "UCLA",
     "location": "away",
     "points": 32,
-    "aggregate": 2125,
+    "aggregate": 2135,
     "game_points": 59,
     "result": "L"
   },
@@ -1037,7 +1040,7 @@
     "opponent": "Arizona",
     "location": "away",
     "points": 22,
-    "aggregate": 2147,
+    "aggregate": 2157,
     "game_points": 74,
     "result": "W"
   },
@@ -1048,7 +1051,7 @@
     "opponent": "Arizona St.",
     "location": "away",
     "points": 25,
-    "aggregate": 2172,
+    "aggregate": 2182,
     "game_points": 57,
     "result": "L"
   },
@@ -1059,7 +1062,7 @@
     "opponent": "Utah",
     "location": "home",
     "points": 26,
-    "aggregate": 2198,
+    "aggregate": 2208,
     "game_points": 73,
     "result": "W"
   },
@@ -1070,7 +1073,7 @@
     "opponent": "Colorado",
     "location": "home",
     "points": 18,
-    "aggregate": 2216,
+    "aggregate": 2226,
     "game_points": 68,
     "result": "W"
   },
@@ -1081,7 +1084,7 @@
     "opponent": "Colorado",
     "location": "home",
     "points": 27,
-    "aggregate": 2243,
+    "aggregate": 2253,
     "game_points": 67,
     "result": "W"
   },
@@ -1092,7 +1095,7 @@
     "opponent": "Stanford",
     "location": "home",
     "points": 29,
-    "aggregate": 2272,
+    "aggregate": 2282,
     "game_points": 73,
     "result": "W"
   },
@@ -1103,7 +1106,7 @@
     "opponent": "Oregon St.",
     "location": "away",
     "points": 14,
-    "aggregate": 2286,
+    "aggregate": 2296,
     "game_points": 55,
     "result": "L"
   },
@@ -1114,7 +1117,7 @@
     "opponent": "Penn",
     "location": "away",
     "points": 24,
-    "aggregate": 2310,
+    "aggregate": 2320,
     "game_points": 65,
     "result": "W"
   },
@@ -1125,7 +1128,7 @@
     "opponent": "Maryland",
     "location": "away",
     "points": 32,
-    "aggregate": 2342,
+    "aggregate": 2352,
     "game_points": 74,
     "result": "W"
   },
@@ -1136,7 +1139,7 @@
     "opponent": "Kentucky",
     "location": "away",
     "points": 23,
-    "aggregate": 2365,
+    "aggregate": 2375,
     "game_points": 85,
     "result": "W"
   },
@@ -1147,7 +1150,7 @@
     "opponent": "Stanford",
     "location": "away",
     "points": 26,
-    "aggregate": 2391,
+    "aggregate": 2401,
     "game_points": 85,
     "result": "W"
   },
@@ -1158,12 +1161,13 @@
     "opponent": "Syracuse",
     "location": "away",
     "points": 17,
-    "aggregate": 2408,
+    "aggregate": 2418,
     "game_points": 80,
     "result": "L",
-    "notes": "*",
+    "notes": "In the first Final Four appearance by any UW team since the 1953 men, Plum is largely silenced by the fourth-seeded Orange and the Huskies are eliminated, setting the stage for a historic senior season.",
+    "link": "http://www.seattletimes.com/sports/uw-huskies/uw-women-fall-to-syracuse-80-59-in-final-four-despite-talia-waltons-29-points/",
     "photo": "plum5.jpg",
-    "credit": "Dean Rutz / The Seattle TImes"
+    "credit": "Dean Rutz / The Seattle Times"
   },
   {
     "season": 4,
@@ -1172,7 +1176,7 @@
     "opponent": "Eastern",
     "location": "home",
     "points": 32,
-    "aggregate": 2440,
+    "aggregate": 2450,
     "game_points": 100,
     "result": "W"
   },
@@ -1183,7 +1187,7 @@
     "opponent": "Colorado St.",
     "location": "home",
     "points": 26,
-    "aggregate": 2466,
+    "aggregate": 2476,
     "game_points": 101,
     "result": "W"
   },
@@ -1194,7 +1198,7 @@
     "opponent": "Missouri",
     "location": "home",
     "points": 32,
-    "aggregate": 2498,
+    "aggregate": 2508,
     "game_points": 79,
     "result": "W"
   },
@@ -1205,7 +1209,7 @@
     "opponent": "Notre Dame",
     "location": "away",
     "points": 22,
-    "aggregate": 2520,
+    "aggregate": 2530,
     "game_points": 60,
     "result": "L"
   },
@@ -1216,7 +1220,7 @@
     "opponent": "Idaho",
     "location": "home",
     "points": 27,
-    "aggregate": 2547,
+    "aggregate": 2557,
     "game_points": 105,
     "result": "W"
   },
@@ -1227,10 +1231,11 @@
     "opponent": "Seattle U",
     "location": "away",
     "points": 44,
-    "aggregate": 2591,
+    "aggregate": 2601,
     "game_points": 94,
     "result": "W",
-    "notes": "*",
+    "notes": "“It’s the first time since I can remember that she wasn’t the first one on the court,\" UW coach Mike Neighbors will note after Plum comes one point shy of her then personal best, with 44 points. Turns out, she did so while battling flu-like symptoms, just as she will in her record-breaking performance three months later.",
+    "link": "http://www.seattletimes.com/sports/uw-huskies/kelsey-plum-pours-in-44-points-as-washington-holds-off-seattle-u/",
     "photo": "plum6.jpg",
     "credit": "Ken Lambert / The Seattle Times"
   },
@@ -1241,7 +1246,7 @@
     "opponent": "Portland",
     "location": "away",
     "points": 26,
-    "aggregate": 2617,
+    "aggregate": 2627,
     "game_points": 83,
     "result": "W"
   },
@@ -1252,7 +1257,7 @@
     "opponent": "Grand Canyon",
     "location": "away",
     "points": 28,
-    "aggregate": 2645,
+    "aggregate": 2655,
     "game_points": 101,
     "result": "W"
   },
@@ -1263,7 +1268,7 @@
     "opponent": "Fresno St.",
     "location": "home",
     "points": 30,
-    "aggregate": 2675,
+    "aggregate": 2685,
     "game_points": 92,
     "result": "W"
   },
@@ -1274,7 +1279,7 @@
     "opponent": "CSUN",
     "location": "home",
     "points": 30,
-    "aggregate": 2705,
+    "aggregate": 2715,
     "game_points": 87,
     "result": "W"
   },
@@ -1285,7 +1290,7 @@
     "opponent": "Boise St.",
     "location": "home",
     "points": 44,
-    "aggregate": 2749,
+    "aggregate": 2759,
     "game_points": 82,
     "result": "W",
     "notes": "Kelsey Plum becomes Pac-12 all-time leading scorer with 44 points, handing Boise State its first loss of the season. ",
@@ -1300,7 +1305,7 @@
     "opponent": "Savannah St.",
     "location": "home",
     "points": 23,
-    "aggregate": 2772,
+    "aggregate": 2782,
     "game_points": 94,
     "result": "W"
   },
@@ -1311,7 +1316,7 @@
     "opponent": "BYU",
     "location": "away",
     "points": 29,
-    "aggregate": 2801,
+    "aggregate": 2811,
     "game_points": 82,
     "result": "W"
   },
@@ -1322,7 +1327,7 @@
     "opponent": "Washington St.",
     "location": "home",
     "points": 21,
-    "aggregate": 2822,
+    "aggregate": 2832,
     "game_points": 94,
     "result": "W"
   },
@@ -1333,10 +1338,10 @@
     "opponent": "Oregon",
     "location": "away",
     "points": 44,
-    "aggregate": 2866,
+    "aggregate": 2876,
     "game_points": 99,
     "result": "W",
-    "notes": "“She’s got an incredible knack to stress the defense and yet still be able to share the ball,” UW coach Mike Neighbors said after Kelsey Plum notched another 40-point game. “It’s not like a shot-hunting expedition and she’s not a stat-stuffer.”",
+    "notes": "“She’s got an incredible knack to stress the defense and yet still be able to share the ball,” UW coach Mike Neighbors says after Kelsey Plum notches another 40-point game. “It’s not like a shot-hunting expedition and she’s not a stat-stuffer.”",
     "link": "http://www.seattletimes.com/sports/uw-husky-basketball/kelsey-plum-drops-44-points-as-washington-women-drop-oregon/"
   },
   {
@@ -1346,7 +1351,7 @@
     "opponent": "Oregon St.",
     "location": "away",
     "points": 22,
-    "aggregate": 2888,
+    "aggregate": 2898,
     "game_points": 70,
     "result": "L"
   },
@@ -1357,7 +1362,7 @@
     "opponent": "USC",
     "location": "home",
     "points": 34,
-    "aggregate": 2922,
+    "aggregate": 2932,
     "game_points": 77,
     "result": "W"
   },
@@ -1368,7 +1373,7 @@
     "opponent": "UCLA",
     "location": "home",
     "points": 39,
-    "aggregate": 2961,
+    "aggregate": 2971,
     "game_points": 82,
     "result": "W"
   },
@@ -1379,10 +1384,10 @@
     "opponent": "Arizona",
     "location": "away",
     "points": 36,
-    "aggregate": 2997,
+    "aggregate": 3007,
     "game_points": 90,
     "result": "W",
-    "notes": "Kelsey Plum becomes first UW basketball player (women or men) to reach 3,000 career points.",
+    "notes": "Kelsey Plum becomes first UW basketball player (women or men) to reach 3,000 career points. Her next game, she would jump into the top 10 women's scorers of all time with force, scoring 34 to pass Cheryl Miller, Chamique Holdsclaw, Maya Moore and Elena Delle Donne in one game.",
     "link": "http://www.seattletimes.com/sports/uw-huskies/kelsey-plum-surpasses-3000-career-points-as-washington-women-win-at-arizona/",
     "photo": "plum8.jpg",
     "credit": "Ben Moffat / The Arizona Republic via AP"
@@ -1394,7 +1399,7 @@
     "opponent": "Arizona St.",
     "location": "away",
     "points": 34,
-    "aggregate": 3031,
+    "aggregate": 3041,
     "game_points": 65,
     "result": "W"
   },
@@ -1405,7 +1410,7 @@
     "opponent": "Washington St.",
     "location": "away",
     "points": 29,
-    "aggregate": 3060,
+    "aggregate": 3070,
     "game_points": 87,
     "result": "W"
   },
@@ -1413,12 +1418,13 @@
     "season": 4,
     "game": 128,
     "date": "1/27/17",
-    "opponent": "CAL",
+    "opponent": "Cal",
     "location": "home",
     "points": 24,
-    "aggregate": 3084,
+    "aggregate": 3094,
     "game_points": 90,
-    "result": "W"
+    "result": "W",
+    "Top 10 pass?": "Rachel Banham"
   },
   {
     "season": 4,
@@ -1427,12 +1433,14 @@
     "opponent": "Stanford",
     "location": "home",
     "points": 44,
-    "aggregate": 3128,
+    "aggregate": 3138,
     "game_points": 68,
     "result": "L",
-    "notes": "*",
+    "notes": "In front of a sold-out crowd at Hec Ed — the largest ever to watch a UW women's basketball game — Plum scores 44 points but her teammates contribute only 24 more and the No. 7 Huskies fall to No. 10 Stanford for their third loss of the season.",
+    "link": "http://www.seattletimes.com/sports/uw-husky-basketball/kelsey-plums-44-points-for-washington-cant-hold-off-stanfords-winning-comeback/",
     "photo": "plum9.jpg",
-    "credit": "Bettina Hansen / The Seattle Times"
+    "credit": "Bettina Hansen / The Seattle Times",
+    "Top 10 pass?": "Jerica Coley, Lorri Bauman, Patricia Hoskins"
   },
   {
     "season": 4,
@@ -1441,7 +1449,7 @@
     "opponent": "Utah",
     "location": "away",
     "points": 24,
-    "aggregate": 3152,
+    "aggregate": 3162,
     "game_points": 82,
     "result": "W"
   },
@@ -1452,7 +1460,7 @@
     "opponent": "Colorado",
     "location": "away",
     "points": 28,
-    "aggregate": 3180,
+    "aggregate": 3190,
     "game_points": 79,
     "result": "W"
   },
@@ -1463,7 +1471,7 @@
     "opponent": "Arizona",
     "location": "home",
     "points": 22,
-    "aggregate": 3202,
+    "aggregate": 3212,
     "game_points": 91,
     "result": "W"
   },
@@ -1474,7 +1482,7 @@
     "opponent": "Arizona St.",
     "location": "home",
     "points": 29,
-    "aggregate": 3231,
+    "aggregate": 3241,
     "game_points": 70,
     "result": "W"
   },
@@ -1485,7 +1493,7 @@
     "opponent": "UCLA",
     "location": "away",
     "points": 39,
-    "aggregate": 3270,
+    "aggregate": 3280,
     "game_points": 79,
     "result": "L"
   },
@@ -1496,24 +1504,35 @@
     "opponent": "USC",
     "location": "away",
     "points": 35,
-    "aggregate": 3305,
+    "aggregate": 3315,
     "game_points": 87,
     "result": "W",
     "notes": "Kelsey Plum passes Brittney Griner to move into second place on all-time NCAA scoring list",
-    "link": "http://www.seattletimes.com/sports/uw-huskies/kelsey-plum-moves-into-second-place-in-ncaa-career-scoring-as-washington-beats-usc/"
+    "link": "http://www.seattletimes.com/sports/uw-huskies/kelsey-plum-moves-into-second-place-in-ncaa-career-scoring-as-washington-beats-usc/",
+    "Top 10 pass?": "Brittney Griner"
   },
   {
     "season": 4,
     "game": 136,
     "date": "2/23/17",
     "opponent": "Colorado",
-    "location": "home"
+    "location": "home",
+    "points": 25,
+    "aggregate": 3340,
+    "game_points": 79,
+    "result": "W"
   },
   {
     "season": 4,
     "game": 137,
     "date": "2/25/17",
     "opponent": "Utah",
-    "location": "home"
+    "location": "home",
+    "points": 57,
+    "aggregate": 3397,
+    "game_points": 84,
+    "result": "W",
+    "notes": "A game for the ages. Kelsey Plum scores a team record 57 points to become college basketball's all-time women's scoring leader, passing Jackie Stiles' previous record of 3,393 career points.",
+    "Top 10 pass?": "Jackie Stiles"
   }
 ]
