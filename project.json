@@ -6,14 +6,14 @@
     },
     "live": {
       "bucket": "projects.seattletimes.com",
-      "path": ""
+      "path": "2017/kelsey-plum-record"
     }
   },
   "title": "",
   "description": "",
-  "url": "",
-  "image": "assets/social.jpg",
+  "url": "http://projects.seattletimes.com/2017/kelsey-plum-record/",
+  "image": "assets/Plum-Triplet.jpg",
   "sheets": ["1zm19SiqKTevvPDW65zDJGY2cRxcyGYjYgcTp48Je7Hw"],
-  "production": false,
-  "embedded": true
+  "production": true,
+  "embedded": false
 }

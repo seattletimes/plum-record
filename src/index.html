@@ -9,7 +9,11 @@
     <%= t.include("partials/_nav.html") %>
 
     <header class="intro">
+      <%= t.include("partials/_ad.html", { type: "banner" }) %>
+
       <img class="splash" src="./assets/PlumHeader1.jpg">
+
+      <div class="published">Originally published March 1, 2017</div>
 
       <p class="chatter">
         From the time she first laced up her sneakers and stepped on the hardwood for the Huskies, it was evident Kelsey Plum was destined for greatness. With a 57-point barrage to cap her final regular season, Plum now stands alone atop women's college basketball as the No. 1 all-time scorer. Scroll down to take a trip through Plum's historic career and the many, many buckets she's scored with UW.
@@ -45,8 +49,14 @@
 
         <div class="row">
 
-          <p class="chatter">
-            Kelsey Plum has put on a hellacious offensive display in her senior season, capping a historic career and passing some iconic female college basketball players. Plum's 57-point display against Utah made her the No. 1 all-time scorer in NCAA women's basketball, passing Jackie Stiles' previous record. Plum needs just 167 points to become the all-time leading scorer in Division I history, men's or women's. Here's a look at how Plum stacks up among the all-time greats.
+          <div class="chatter">
+
+            <img src="./assets/twitter-card.gif">
+
+            <p>
+              Kelsey Plum has put on a hellacious offensive display in her senior season, capping a historic career and passing some iconic female college basketball players. Plum's 57-point display against Utah made her the No. 1 all-time scorer in NCAA women's basketball, passing Jackie Stiles' previous record. Plum needs just 167 points to become the all-time leading scorer in Division I history, men's or women's. Here's a look at how Plum stacks up among the all-time greats.
+
+          </div>
 
           <table class="top-scorers">
             <thead>
@@ -76,7 +86,7 @@
         </div>
 
         <ul class="credits">
-          Sean Quinton, Thomas Wilburn / The Seattle Times
+          Sean Quinton, Evan Webeck, Thomas Wilburn / The Seattle Times
         </ul>
 
       </div>

@@ -4,6 +4,7 @@ require("./lib/ads");
 
 var $ = require("./lib/qsa");
 var colors = require("./lib/colors");
+var debounce = require("./lib/debounce");
 
 var scrollContainer = $.one(".scroll-graph");
 var seasons = $(".season");
@@ -15,6 +16,8 @@ var total = 0;
 var bySeason = { 1: [], 2: [], 3: [], 4: [] };
 gameData.forEach(function(g, i) {
   bySeason[g.season].push(g);
+  var [month, day, year] = g.date.split("/").map(Number);
+  g.date = new Date(year, month - 1, day);
   if (g.notes) {
     var point = document.createElement("div");
     point.className = "point";
@@ -38,6 +41,8 @@ var palette = {
 };
 
 var commafy = s => s.toLocaleString().replace(/\.0+$/, "");
+var months = ["January", "Febuary", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+var date = d => `${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
 
 var popup = $.one(".viz .popup");
 var notClosed = true;
@@ -46,7 +51,12 @@ var setPopup = function(data) {
   var element = data.element;
   if (!element) return;
   popup.style.display = "block";
-  popup.querySelector(".notes").innerHTML = data.notes;
+  popup.classList[data.game == 137 ? "add" : "remove"]("record-breaker");
+  popup.querySelector(".notes").innerHTML = `
+  <h2>${date(data.date)} vs. ${data.opponent}</h2>
+  ${data.notes}
+  <a href="${data.link}" target="_blank">Read more &raquo;</a>
+  `;
   var vizBounds = vizContainer.getBoundingClientRect();
   var pointBounds = element.getBoundingClientRect();
   var popupBounds = popup.getBoundingClientRect();
@@ -58,8 +68,8 @@ var setPopup = function(data) {
   y -= popupBounds.height + 10;
   if (y < 0) y += popupBounds.height + pointBounds.height + 20;
   if (y + popupBounds.height > vizBounds.height) y = vizBounds.height - popupBounds.height;
-  popup.style.left = x + "px";
-  popup.style.top = y + "px";
+  popup.style.left = Math.floor(x) + "px";
+  popup.style.top = Math.floor(y) + "px";
 }
 
 popup.querySelector(".close-button").addEventListener("click", function() {
@@ -68,7 +78,7 @@ popup.querySelector(".close-button").addEventListener("click", function() {
   notClosed = false;
 });
 
-var onScroll = function() {
+var onScroll = debounce(function() {
   var season = null;
   var bounds = null;
   for (var i = 0; i < seasons.length; i++) {
@@ -84,9 +94,15 @@ var onScroll = function() {
       bounds = b;
     }
   }
-  if (!bounds) return;
+  if (!bounds) {
+    if (seasons[seasons.length - 1].getBoundingClientRect().top < 0) {
+      season = s;
+      bounds = b;
+    } else return;
+  }
   var progress = bounds.top > 0 ? 0 : 1 - ((bounds.height + bounds.top) / bounds.height);
-  if (progress > 1) progress = 1;
+  if (progress == 0) return;
+  if (progress > 1) progress = .99;
   var num = season.getAttribute("data-season");
 
   var seasonData = bySeason[num];
@@ -138,11 +154,11 @@ var onScroll = function() {
   }
 
   counter.innerHTML = `
-  <div>Game ${final.game}</div>
-  <div>${final.points} out of ${final.game_points} points</div>
-  <div>Career: ${commafy(final.aggregate)} points</div>`
+  <div class="game">Game ${final.game}</div>
+  <div class="points">${final.points} out of ${final.game_points} points</div>
+  <div class="career">Career: ${commafy(final.aggregate)} points</div>`
 
-}
+}, 50);
 
 window.addEventListener("scroll", onScroll);
 onScroll();

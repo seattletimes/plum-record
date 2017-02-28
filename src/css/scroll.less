@@ -15,6 +15,7 @@
   .season {
     height: 120vh;
     background-image: url(./assets/photos/plum1.jpg);
+    background-position: 60% 0;
     background-size: cover;
     background-attachment: fixed;
 
@@ -40,7 +41,10 @@
       background-position: 50% 0;
     }
 
-    &[data-season="1"] .backdrop {background-image: url(./assets/photos/plum2.jpg) }
+    &.active[data-season="1"] .backdrop { background-position: 70% 0 }
+    &.active[data-season="3"] .backdrop { background-position: 40% 0 }
+
+    &[data-season="1"] .backdrop { background-image: url(./assets/photos/plum2.jpg) }
     &[data-season="2"] .backdrop { background-image: url(./assets/photos/plum3.jpg) }
     &[data-season="3"] .backdrop { background-image: url(./assets/photos/plum4.jpg) }
     &[data-season="4"] .backdrop { background-image: url(./assets/photos/plum5.jpg) }
@@ -57,7 +61,7 @@
     display: block;
 
     canvas {
-      background: fade(black, 20%);
+      background: fade(white, 20%);
       position: absolute;
       top: 0;
       left: 0;
@@ -90,7 +94,7 @@
 
     .popup {
       position: absolute;
-      width: 300px;
+      width: 400px;
       max-width: 100%;
       background: fade(black, 70%);
       color: white;
@@ -99,8 +103,20 @@
       box-shadow: 0 8px 8px 16px fade(black, 20%);
       display: none;
       font-family: @df-sans;
-      font-size: 14px;
+      font-size: 16px;
       z-index: 999;
+      transform: translateZ(0);
+
+      h2 {
+        font-size: 16px;
+        color: white;
+        margin: 0;
+      }
+
+      @media @mobile {
+        font-size: 14px;
+        width: 300px;
+      }
 
       .close-button {
         position: absolute;
@@ -111,21 +127,38 @@
         color: white;
         cursor: pointer;
       }
+
+      a {
+        color: white;
+        display: block;
+        text-align: right;
+      }
+
+      &.record-breaker {
+        background: @st-light-purple;
+        color: black;
+
+        h2, a { color: black; }
+      }
     }
 
     .counter {
       position: absolute;
-      bottom: 0;
-      right: 0;
+      top: 0;
+      left: 1px;
       color: white;
       background: fade(black, 40%);
       font-family: @df-sans;
-      font-size: 12px;
+      font-size: 16px;
       padding: 8px;
       text-align: right;
 
+      .career {
+        font-weight: bold;
+      }
+
       @media @mobile {
-        display: none;
+        font-size: 14px;
       }
     }
   }
