@@ -32,6 +32,15 @@ gameData.forEach(function(g, i) {
 var canvas = $.one(".graph");
 var context = canvas.getContext("2d");
 var counter = $.one(".viz .counter");
+var credit = $.one(".viz .credit");
+
+var credits = {
+  0: "Dean Rutz / The Seattle Times",
+  1: "Lindsay Wasson / The Seattle Times",
+  2: "Ben Moffat / AP",
+  3: "Lindsay Wasson / The Seattle Times",
+  4: "Logan Riely / The Seattle Times"
+};
 
 var palette = {
   1: "white",
@@ -102,11 +111,15 @@ var onScroll = debounce(function() {
     } else return;
   }
   var progress = bounds.top > 0 ? 0 : 1 - ((bounds.height + bounds.top) / bounds.height);
-  if (progress == 0) return;
+  if (progress == 0) {
+    credit.innerHTML = "Photo: " + credits[0];
+    return;
+  }
   if (progress > 1) progress = .99;
   var num = season.getAttribute("data-season");
 
   var seasonData = bySeason[num];
+  credit.innerHTML = "Photo: " + credits[num];
   var index = Math.floor(seasonData.length * progress);
   var final = seasonData[index];
   var noted = null;
