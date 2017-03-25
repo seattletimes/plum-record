@@ -1534,5 +1534,50 @@
     "result": "W",
     "notes": "A game for the ages. Kelsey Plum scores a team record 57 points to become college basketball's all-time women's scoring leader, passing Jackie Stiles' previous record of 3,393 career points.",
     "Top 10 pass?": "Jackie Stiles"
+  },
+  {
+    "season": 4,
+    "game": 138,
+    "date": "3/3/2017",
+    "opponent": "Oregon",
+    "location": "home",
+    "points": 34,
+    "aggregate": 3431,
+    "game_points": 70,
+    "result": "L"
+  },
+  {
+    "season": 4,
+    "game": 139,
+    "date": "3/18/2017",
+    "opponent": "Montana St.",
+    "location": "home",
+    "points": 29,
+    "aggregate": 3460,
+    "game_points": 91,
+    "result": "W"
+  },
+  {
+    "season": 4,
+    "game": 140,
+    "date": "3/20/2017",
+    "opponent": "Oklahoma",
+    "location": "home",
+    "points": 38,
+    "aggregate": 3498,
+    "game_points": 108,
+    "result": "W",
+    "notes": "Another record shattered. Kelsey Plum nets 38 points to break Jackie Stiles' single-season scoring record, as the UW women advance to the Sweet 16 for the second straight year, where they will be eliminated by second-seeded Mississippi State, bringing Plum's record-setting college career to an end with 3,527 points."
+  },
+  {
+    "season": 4,
+    "game": 141,
+    "date": "3/24/2017",
+    "opponent": "Mississippi State",
+    "location": "away",
+    "points": 29,
+    "aggregate": 3527,
+    "game_points": 64,
+    "result": "L"
   }
 ]
